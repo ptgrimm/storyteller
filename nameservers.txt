@@ -1,0 +1,6 @@
+a.ns.zerigo.net
+b.ns.zerigo.net
+c.ns.zerigo.net
+d.ns.zerigo.net
+e.ns.zerigo.net
+f.ns.zerigo.net
