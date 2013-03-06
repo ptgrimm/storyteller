@@ -5,7 +5,7 @@ jQuery(function($){
      transition  :   1,   // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
      transition_speed  :  1800,  // Speed of transition
      stop_loop   :   0, 
-     random  :   1,
+     random  :   0,
      vertical_center   :   0,
      // Components  
      slide_links  :  'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')
