@@ -8,10 +8,10 @@ $('.slide-it').click(function(e){
 
 
 // button appears
-// $(function(){
-//  function j() {
-//	 $('.nyc').fadeIn("slow");
-//  };
-// window.setTimeout( j, 1100 );
-// });
+ $(function(){
+  function j() {
+	 $('.float-icons').fadeIn(1000);
+  };
+ window.setTimeout( j, 1100 );
+ });
 
