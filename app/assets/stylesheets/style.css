@@ -8,11 +8,11 @@
 	.float-icons{
 		float: right;
 		display:none;
-	    opacity: 0.4;
-	 	filter: alpha(opacity=44); /* use '=' here, not ':' */
-	    opacity: 0.44;
-	    -moz-opacity: 0.44;
-	    padding: 24px 23px 17px 0;
+	    opacity: 0.55;
+	 	filter: alpha(opacity=55); /* use '=' here, not ':' */
+	    opacity: 0.55;
+	    -moz-opacity: 0.55;
+	    padding: 21px 23px 17px 0;
 	    width: 30px;
 	}
 	.float-icons:hover{
@@ -27,10 +27,10 @@
 		}
 	#header{
 		background: url("http://petegrimm.com/storyteller/images/70.png") repeat fixed center center transparent;
-		height: 73px;
-		margin-left: 401px;
+		height: 64px;
+		margin-left: 361px;
 		padding-bottom: 15px;
-		padding-left: 90px;
+		padding-right:50px;
 		padding-top: 10px;
 	}
 	

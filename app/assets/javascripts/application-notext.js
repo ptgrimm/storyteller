@@ -9,9 +9,15 @@ $('.slide-it').click(function(e){
 
 // button appears
  $(function(){
-  function j() {
-	 $('.float-icons').fadeIn(1000);
+  function h() {
+	 $('.load1').fadeIn(1500);
   };
- window.setTimeout( j, 1100 );
+ window.setTimeout( h, 3000 );
  });
 
+ $(function(){
+  function j() {
+	 $('.load2').fadeIn(1000);
+  };
+ window.setTimeout( j, 3730 );
+ });
