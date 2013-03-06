@@ -10,11 +10,9 @@ jQuery(function($){
      // Components  
      slide_links  :  'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')
      slides   :  [  // Slideshow Images
-     {image : 'assets/kafka.gif ', title : '', thumb : '', url : ''},
-     {image : 'assets/krishna.gif', title : '', thumb : '', url : ''},
-     {image : 'assets/marquez.gif', title : '', thumb : '', url : ''},
-     {image : 'assets/rumi.gif', title : '', thumb : '', url : ''},
-     {image : 'assets/rukeyser.gif', title : '', thumb : '', url : ''},
+     {image : 'assets/universe.gif ', title : '', thumb : '', url : ''},
+     {image : 'assets/storyteller-is.gif', title : '', thumb : '', url : ''},
+     {image : 'assets/find-out.gif', title : '', thumb : '', url : ''},
      ]
     });
 });
