@@ -65,13 +65,13 @@
 	.fade, .fade:hover, .fade:focus
 	{
 	  	filter: alpha(opacity=70); /* use '=' here, not ':' */
-	    -moz-opacity: .70;
-		-webkit-opacity:.70;
-		opacity: .7;
-		-webkit-transition: 500ms linear 0s;
-		-moz-transition: 500ms linear 0s;
-		-o-transition: 500ms linear 0s;
-		transition: 500ms linear 0s;
+	    -moz-opacity: .60;
+		-webkit-opacity:.60;
+		opacity: .60;
+		-webkit-transition: 290ms linear 0s;
+		-moz-transition: 290ms linear 0s;
+		-o-transition: 290ms linear 0s;
+		transition: 290ms linear 0s;
 		outline: 0 none;
 	}
 	.fade:hover, .fade:focus
@@ -86,33 +86,32 @@
 	{
 	0% {opacity:0;}
 	80% {opacity:0;}
-	84% {opacity:1;}
-	100% {opacity:.63;}
+	94% {opacity:1;}
+	100% {opacity:.60;}
 	}
 
 	@-moz-keyframes yellowglow /* Firefox */
 	{
 		0% {opacity:0;}
 		80% {opacity:0;}
-		88% {opacity:1;}
-		100% {opacity:.63;}
+		94% {opacity:1;}
+		100% {opacity:.60;}
 	}
 
 	@-webkit-keyframes yellowglow /* Safari and Chrome */
 	{
 		0% {opacity:.0;}
 		80% {opacity:0;}
-		88% {opacity:1;}
-		100% {opacity:.63;}
+		94% {opacity:1;}
+		100% {opacity:.60;}
 	}
 
 	@-o-keyframes yellowglow /* Opera */
 	{
 		0% {opacity:0;}
 		80% {opacity:0;}
-		84% {opacity:.3;}
-		88% {opacity:1;}
-		100% {opacity:.63;}
+		94% {opacity:1;}
+		100% {opacity:.60;}
 	}
 	
     .featurette {	
