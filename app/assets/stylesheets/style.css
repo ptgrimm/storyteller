@@ -5,59 +5,85 @@
 	
 	/* Peter */
 
-	.yellow{animation: yellowglow 21s ease 0s 1 none;
-		-moz-animation: yellowglow 21s ease 0s 1 none; 
-		-webkit-animation: yellowglow 21s ease 0s 1 none;}
-	
 	.fade, .fade:hover, .fade:focus
 	{
 	    text-decoration: none !important;
 		color:white;
 		font-size:1.2em;
-		padding:15px 29px 15px 3px;
+		padding:13px 29px 15px 3px;
 		float:right;
-	  	filter: alpha(opacity=30); /* use '=' here, not ':' */
-	    -moz-opacity: .30;
-		-webkit-opacity:.30;
-		opacity: .30;
+	  	filter: alpha(opacity=40); /* use '=' here, not ':' */
+	    -moz-opacity: .40;
+		-webkit-opacity:.40;
+		opacity: .40;
 		-webkit-transition: 290ms ease-out 0s;
 		-moz-transition: 290ms ease-out 0s;
 		-o-transition: 290ms ease-out 0s;
 		transition: 290ms ease-out 0s;
 		outline: 0 none;
+		-webkit-animation: fade 1s ease 0s 1 none;
+		-webkit-animation: yellowglow 6s ease 15s 1 none;
+		animation: yellowglow 6s ease 15s 1 none;
 	}
 	.fade:hover, .fade:focus
 	{
+		opacity: 1 !important;
 	  	filter: alpha(opacity=100); /* use '=' here, not ':' */
 	    -moz-opacity: 1 !important;
-		-webkit-opacity:1;
-		opacity: 1 !important;
+		-webkit-opacity:1 !important;
 	}
+	
+	@keyframes fade
+	{
+	0% {opacity:.4;}
+	
+	100% {opacity:1;}
+	}
+
+	@-moz-keyframes fade /* Firefox */
+	{
+		0% {opacity:.4;}
+	
+		100% {opacity:1;}
+	}
+
+	@-webkit-keyframes fade /* Safari and Chrome */
+	{
+		0% {opacity:4.;}
+		100% {opacity:1 !important;}
+	}
+
+	@-o-keyframes fade /* Opera */
+	{
+		0% {opacity:.4;}
+		100% {opacity:1;}
+	}
+
 	
 	@keyframes yellowglow
 	{
-	0% {color:white ; }
-	86% {color:white; }
-	87% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-	90% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+	0% {color:white; }
+	26% {color:white; }
+	37% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+	40% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
 	100% {color:white; opacity:.4; }
 	}
 
 	@-moz-keyframes yellowglow /* Firefox */
 	{
 		0% {color:white ; }
-		86% {color:white; }
-		87% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		90% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+		26% {color:white; }
+		37% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+		40% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
 		100% {color:white; opacity:.4; }
 	}
 
 	@-webkit-keyframes yellowglow /* Safari and Chrome */
 	{
 		0% {color:white ; }
-		86% {color:white; }
-		87% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		90% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+		26% {color:white; }
+		37% {color:white; opacity:.3; -webkit-opacity:.30; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+		40% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
 		100% {color:white; opacity:.4; }
 	}
 
@@ -69,7 +95,8 @@
 		90% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
 		100% {color:white; opacity:.4;}
 	}
-	
+
+
     .featurette {	
 		margin-top:74px;
 		width:1100px;	}
@@ -82,38 +109,7 @@
 		padding-right:50px;
 		padding-top: 10px;
 	}
-	
-	@keyframes fade
-	{
-	0% {opacity:0;}
-	
-	100% {opacity:1;}
-	}
 
-	@-moz-keyframes fade /* Firefox */
-	{
-		0% {opacity:0;}
-	
-		100% {opacity:1;}
-	}
-
-	@-webkit-keyframes fade /* Safari and Chrome */
-	{
-		0% {opacity:0;}
-		25% {opacity:.3;}
-		84% {opacity:.3;}
-		88% {opacity:1;}
-		90% {opacity:1;}
-		100% {opacity:.70;}
-	}
-
-	@-o-keyframes fade /* Opera */
-	{
-		0% {opacity:0;}
-		35% {opacity:1;}
-		100% {opacity:.6;}
-	}
-	
 	/* old header 
 	#header{
 		background: url("http://petegrimm.com/storyteller/images/70.png") repeat fixed center center transparent;
