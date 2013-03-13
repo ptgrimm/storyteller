@@ -1,9 +1,14 @@
 
 <div id="header">
 	<%=image_tag 'logo-trans.png',:id => 'logo'%>
-
-	<%= link_to image_tag('facebook-y.png',:class => 'yellow-facebook fade' ), 'http://www.facebook.com/storytelleris',:target => '_blank' %>
-	<%= link_to image_tag('twitter-y.png',:class => 'yellow-twitter fade' ), 'http://www.twitter.com/storyteller_IS',:target => '_blank' %>
+	
+	<%= link_to 'http://www.twitter.com/storyteller_IS',:target => '_blank' do %>
+    		<i class="icon-twitter fade yellow"></i>
+	<% end %>
+	<%= link_to 'http://www.facebook.com/storytelleris',:target => '_blank' do %>
+    		<i class="icon-facebook fade yellow"></i>
+	<% end %>
+	
 	
 	<div class="slide-it clickhere"><span class="nyc">Learn More</span></div>
 	<div class="marketing i-slide">
