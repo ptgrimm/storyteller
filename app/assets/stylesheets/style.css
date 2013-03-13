@@ -5,7 +5,9 @@
 	
 	/* Peter */
 
-	.yellow{animation: yellowglow 21s ease 0s 1 none;}
+	.yellow{animation: yellowglow 21s ease 0s 1 none;
+		-moz-animation: yellowglow 21s ease 0s 1 none; 
+		-webkit-animation: yellowglow 21s ease 0s 1 none;}
 	
 	.fade, .fade:hover, .fade:focus
 	{
@@ -74,8 +76,8 @@
 		
 	#header{
 		background: url("http://petegrimm.com/storyteller/images/70.png") repeat fixed center center transparent;
-		height: 47px;
-		margin-left: 361px;
+		height: 42px;
+	    margin-left: 337px;
 		padding-bottom: 15px;
 		padding-right:50px;
 		padding-top: 10px;
@@ -128,6 +130,7 @@
 	    left: 0;
 	    position: absolute;
 	    top: -2px;
+		width:337px;
 	}
 	
 /* non-transparent logo	#logo {
