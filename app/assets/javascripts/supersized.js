@@ -12,7 +12,6 @@ jQuery(function($){
      slides   :  [  // Slideshow Images
      {image : 'assets/universe.gif ', title : '', thumb : '', url : ''},
      {image : 'assets/storytelleris1.gif', title : '', thumb : '', url : ''},
-	{image : 'assets/storytelleris2.gif', title : '', thumb : '', url : ''},
      {image : 'assets/find-out.gif', title : '', thumb : '', url : ''},
      ]
     });
