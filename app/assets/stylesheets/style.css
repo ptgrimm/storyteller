@@ -49,7 +49,7 @@
 
 	@-webkit-keyframes fade /* Safari and Chrome */
 	{
-		0% {opacity:4.;}
+		0% {opacity:4;}
 		100% {opacity:1 !important;}
 	}
 
