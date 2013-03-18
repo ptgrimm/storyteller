@@ -3,8 +3,43 @@
 		ul#demo-block li{ margin:0 0 10px 0; padding:10px; display:inline; float:left; clear:both; color:#aaa; background:url('img/bg-black.png'); font:11px Helvetica, Arial, sans-serif; }
 		ul#demo-block li a{ color:#eee; font-weight:bold; }
 	
-	/* Peter */
-
+	/* Peter 
+		animation: fade 1s ease 0s 1 none;
+		-webkit-animation: fade 1s ease 0s 1 none;
+		*/
+		
+.mask-icons-container{
+ 	position: absolute;
+    right: 50px;
+    top: 10px;
+    width: 170px;
+	z-index:999999
+}
+	.hover, .hover:hover, .hover:focus
+	{
+	    text-decoration: none !important;
+		color:white;
+		font-size:1.2em;
+		padding:13px 29px 15px 3px;
+		float:right;
+	  	filter: alpha(opacity=0); /* use '=' here, not ':' */
+	    -moz-opacity: .0;
+		-webkit-opacity:.0;
+		opacity: .0;
+		outline: 0 none;
+		-webkit-transition: 500ms linear 0s;
+		-moz-transition: 500ms linear 0s;
+		-o-transition: 500ms linear 0s;
+		transition: 500ms linear 0s;
+	}
+	.hover:hover, .hover:focus
+	{
+		opacity: 1 !important;
+	  	filter: alpha(opacity=100); /* use '=' here, not ':' */
+	    -moz-opacity: 1 !important;
+		-webkit-opacity:1 !important;
+	}
+	
 	.fade, .fade:hover, .fade:focus
 	{
 	    text-decoration: none !important;
@@ -16,78 +51,41 @@
 	    -moz-opacity: .40;
 		-webkit-opacity:.40;
 		opacity: .40;
-		-webkit-transition: 290ms ease-out 0s;
-		-moz-transition: 290ms ease-out 0s;
-		-o-transition: 290ms ease-out 0s;
-		transition: 290ms ease-out 0s;
 		outline: 0 none;
-		-webkit-animation: fade 1s ease 0s 1 none;
-		-webkit-animation: yellowglow 6s ease 15s 1 none;
-		animation: yellowglow 6s ease 15s 1 none;
+		-webkit-animation: yellowglow 166s ease 5s 1 none;
+		animation: yellowglow 166s ease 5s 5 none;
 	}
-	.fade:hover, .fade:focus
-	{
-		opacity: 1 !important;
-	  	filter: alpha(opacity=100); /* use '=' here, not ':' */
-	    -moz-opacity: 1 !important;
-		-webkit-opacity:1 !important;
-	}
-	
-	@keyframes fade
-	{
-	0% {opacity:.4;}
-	
-	100% {opacity:1;}
-	}
-
-	@-moz-keyframes fade /* Firefox */
-	{
-		0% {opacity:.4;}
-	
-		100% {opacity:1;}
-	}
-
-	@-webkit-keyframes fade /* Safari and Chrome */
-	{
-		0% {opacity:4;}
-		100% {opacity:1 !important;}
-	}
-
-	@-o-keyframes fade /* Opera */
-	{
-		0% {opacity:.4;}
-		100% {opacity:1;}
-	}
-
 	
 	@keyframes yellowglow
 	{
 	0% {color:white; }
-	26% {color:white; }
-	37% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-	40% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
-	60% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
-	100% {color:white; opacity:.4; }
+	6% {color:white; }
+	7% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+	8% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+	12% {color:#e7e518; opacity:.9;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+	60% {color:#e7e518; opacity:.5;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+	100% {color:#e7e518; opacity:.5; }
 	}
 
 	@-moz-keyframes yellowglow /* Firefox */
 	{
 		0% {color:white ; }
-		26% {color:white; }
-		37% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		40% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
-		60% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
-		100% {color:white; opacity:.4; }
+		6% {color:white; }
+		7% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+		8% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+		12% {color:#e7e518; opacity:.9;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+		60% {color:#e7e518; opacity:.5;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+		100% {color:#e7e518; opacity:.5; }
 	}
 
 	@-webkit-keyframes yellowglow /* Safari and Chrome */
 	{
 		0% {color:white ; }
-		26% {color:white; }
-		37% {color:white; opacity:.3; -webkit-opacity:.30; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		40% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+		6% {color:white; }
+		7% {color:white; opacity:.3; -webkit-opacity:.30; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+		8% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
 		60% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
-		100% {color:white; opacity:.4; }
+		100% {color:#e7e518; opacity:.5; }
 	}
 
 	@-o-keyframes yellowglow /* Opera */
@@ -97,7 +95,7 @@
 		37% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
 		40% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
 		60% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
-		100% {color:white; opacity:.4; }
+		100% {color:#e7e518; opacity:.5; }
 	}
 
 
