@@ -52,41 +52,41 @@
 		-webkit-opacity:.40;
 		opacity: .40;
 		outline: 0 none;
-		-webkit-animation: yellowglow 166s ease 5s 1 none;
-		animation: yellowglow 166s ease 5s 5 none;
+		-webkit-animation: yellowglow 196s ease 5s 1 none;
+		animation: yellowglow 196s ease 5s 5 none;
 	}
 	
 	@keyframes yellowglow
 	{
 	0% {color:white; }
-	6% {color:white; }
-	7% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-	8% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+	5% {color:white; }
+	6% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+	7% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
 	12% {color:#e7e518; opacity:.9;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-	60% {color:#e7e518; opacity:.5;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-	100% {color:#e7e518; opacity:.5; }
+	60% {color:#e7e518; opacity:.7;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+	100% {color:#e7e518; opacity:.6; }
 	}
 
 	@-moz-keyframes yellowglow /* Firefox */
 	{
 		0% {color:white ; }
-		6% {color:white; }
-		7% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		8% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+		5% {color:white; }
+		6% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+		7% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
 		12% {color:#e7e518; opacity:.9;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		60% {color:#e7e518; opacity:.5;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		100% {color:#e7e518; opacity:.5; }
+		60% {color:#e7e518; opacity:.7;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+		100% {color:#e7e518; opacity:.6; }
 	}
 
 	@-webkit-keyframes yellowglow /* Safari and Chrome */
 	{
 		0% {color:white ; }
-		6% {color:white; }
-		7% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		8% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
+		5% {color:white; }
+		6% {color:white; opacity:.3; text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+		7% {color:#e7e518; opacity:1;  text-shadow:-1px 1px 2px #d0ce1b, 1px -1px 2px #d0ce1b}
 		12% {color:#e7e518; opacity:.9;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		60% {color:#e7e518; opacity:.5;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
-		100% {color:#e7e518; opacity:.5; }
+		60% {color:#e7e518; opacity:.7;  text-shadow:-1px 1px 2px #000000, 1px -1px 2px #000000}
+		100% {color:#e7e518; opacity:.6; }
 	}
 
 	@-o-keyframes yellowglow /* Opera */
