@@ -11,7 +11,7 @@ jQuery(function($){
      slide_links  :  'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')
      slides   :  [  // Slideshow Images
      {image : 'assets/universe.gif ', title : '', thumb : '', url : ''},
-     {image : 'assets/storytelleris1.gif', title : '', thumb : '', url : ''},
+     {image : 'assets/storyteller-is.gif', title : '', thumb : '', url : ''},
      {image : 'assets/find-out.gif', title : '', thumb : '', url : ''},
      ]
     });
