@@ -9,6 +9,8 @@ gem 'pg'
 gem 'psych'
 gem 'newrelic_rpm'
 
+gem 'font-awesome-sass-rails'
+
 group :development do
   gem 'sqlite3'
 end

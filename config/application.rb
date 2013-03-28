@@ -37,7 +37,8 @@ module Storyteller
     config.encoding = "utf-8"
     
     # Add the fonts path
-    config.assets.paths << "#{Rails.root}/app/assets/fonts"
+    #config.assets.paths << "#{Rails.root}/app/assets/fonts", "#{Rails.root}/app/assets/font"
+    config.assets.paths << Rails.root.join("app", "assets", "fonts", 'font')
 
     # Precompile additional assets
     config.assets.precompile += %w( .svg .eot .woff .ttf )
