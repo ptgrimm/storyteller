@@ -20,26 +20,23 @@
 //	 $('.yellow-icons').fadeIn(800);
 // };
 //window.setTimeout( h, 8300 );
+
+//$(function(){
+//  function h() {
+//     $('.load1').fadeIn(1500);
+//  };
+// window.setTimeout( h, 3000 );
+// });
+//$(function(){
+//  function j() {
+//     $('.slide-it').fadeIn(100);
+//  };
+// window.setTimeout( j, 3730 );
+// }); 
+
 //});
+
 $(document).ready(function() {
-
-$('.slide-it').click(function(e){
-    $('.i-slide').slideToggle();
-});
-
-$(function(){
-  function h() {
-	 $('.load1').fadeIn(1500);
-  };
- window.setTimeout( h, 3000 );
- });
-
-$(function(){
-  function j() {
-	 $('.load2').fadeIn(1000);
-  };
- window.setTimeout( j, 3730 );
- });
 
 
 jQuery(function($){
@@ -54,14 +51,37 @@ jQuery(function($){
      // Components  
      slide_links  :  'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')
      slides   :  [  // Slideshow Images
-     {image : 'assets/universe.gif ', title : '', thumb : '', url : ''},
-     {image : 'assets/storyteller-is.gif', title : '', thumb : '', url : ''},
-     {image : 'assets/find-out.gif', title : '', thumb : '', url : ''},
+     {image : 'assets/redefine.gif ', title : '', thumb : '', url : ''},
      ]
     });
 });
 
 
+$('#vertical_slide').hide();
+$('#toggle_mover').hide();
+
+$('#toggle').click(function() {
+    $('#vertical_slide').slideToggle(500, 'swing', function () {
+        $('#toggle').text(function (index, text) {
+            return (text == '+' ? '-' : '+');
+        });
+    });
+    $('#toggle_mover').slideToggle(500, 'swing', function () {
+    });
+    
+    return false;
+});
+
+$('#learn').click(function() {
+    $('#vertical_slide').slideToggle(500, 'swing', function () {
+        $('#toggle').text(function (index, text) {
+            return (text == '+' ? '-' : '+');
+        });
+    });
+    $('#toggle_mover').slideToggle(500,'swing', function () {
+    });
+    return false;
+});
 
 });
 

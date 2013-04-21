@@ -1,45 +1,43 @@
  <%= favicon_link_tag %>
 <div id="header">
-	<div class="mask-icons-container">
+	
+	<%=image_tag 'logo-black.png',:id => 'logo'%>
+
+    	<!--	<i class="icon-twitter fade"></i>
+    			<i class="icon-facebook fade"></i> -->
+	
+	<div id="toggle_container"><div id="toggle_mover"></div><div class="spacer"></div><div id="toggle">+</div></div>
+	<div id="learn" class="learnhow">Learn How</div>
+
+	
+		<div id="vertical_slide" class="tray">
+			<div class="mask-icons-container">
 		<%= link_to 'http://www.twitter.com/storyteller_IS',:target => '_blank' do %>
-	    		<i class="icon-twitter hover"></i>
+	    		<i class="icon-twitter hover-black"></i>
 		<% end %>
 		<%= link_to 'http://www.facebook.com/storytelleris',:target => '_blank' do %>
-	    		<i class="icon-facebook hover"></i>
+	    		<i class="icon-facebook hover-black"></i>
 		<% end %>
 	</div>
-	<%=image_tag 'logo-trans.png',:id => 'logo'%>
-	
-    		<i class="icon-twitter fade"></i>
-    		<i class="icon-facebook fade"></i>
-	
-	
-	<div class="slide-it clickhere"><span class="nyc">Learn More</span></div>
-	<div class="marketing i-slide">
-	<div class="featurette">
-		<h2 class="featurette-heading"><%=image_tag 'arrow.png',:class => 'i-slide'%><span class="color">COMING SOON</span><br/> Storyteller.is holding a workshop in NEW YORK CITY <a href="#" target="_blank"></a>
-		  <a href="http://www.facebook.com/pages/Storytelleris/318595974919338?fref=ts" target="_blank"></a>
-	</h2>	 
-	</div>
-	   <div class="row">
-    <div class="span4 marginless">
-      <h2>THE COMMUNITY:</h2>
-      <p>Non-Native New Yorkers</p>
+			<div class="margin">
+				<div class="heading">The places that matter most
+to us in this world, are not defined by their boundaries and buildings. They are defined by our stories from within them.
+				</div>
+				<div class="line"</></div>
+	   			<div class="row">
+    				<div class="span7">
+      <p>Storyteller.is where these stories can live. We are an online platform where anyone, anywhere, can submit brief, yet true and personal stories about the places that matter most to them. Whether home-telling, nostalgia-telling or travel-telling.<br/><br/>
+Our goal: To allow for a more beautiful and meaningful way to see our world. Every place is filled with stories. And every place should be filled with storytellers.</p>
    <!--  <p><a class="btn" href="#">View details &raquo;</a></p> -->
-    </div>
-    <div class="span4">
-      <h2>THE MEDIUM:</h2>
-		<p>Black & White Photography</p>
-   </div>
+    				</div>
+    				<div class="span7">
+		<p><u>Be a storyteller.</u> We are currently collecting content for the site. To learn how you can contribute, sign up to our mailing list. </br></br><u>Be a storydweller.</u> Like us on Facebook and follow us on Twitter to keep in touch as we grow.</p>
+   					</div>
     
-   <div class="span4 borderless">
-	   <h2>TAKE PART:</h2>
-	   <p>Learn more and/or sign up by dropping us a line: <span class="color">tell(at)storyteller(dot)is</span></p> 
-	<!--   <a id="clickhere" class="btn">CONTACT</a> -->
-    </div>
-     </div><!-- row -->
-	</div><!-- /.marketing container -->
-	
+  
+     			</div><!-- row -->
+     		</div><!-- margin -->
+		</div><!--  tray -->
 </div>
 
 
@@ -55,7 +53,10 @@
 		<div id="slidecaption"></div>
 
 	</div>
+
 </div>
 
 <!--preload imgs-->
-<script type="text/javascript" src="assets/application-notext.js"></script>	
+<script type="text/javascript">
+
+</script>	
