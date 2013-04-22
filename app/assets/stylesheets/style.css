@@ -112,8 +112,8 @@ ul#demo-block{ margin:0 15px 15px 15px; }
     top: 168px;
 }
 .headline-image {
-    width: 1300px;
-    margin-left: 6px
+    width: 1288px;
+    margin-left: 7px
 }
 	.line{
 		border-bottom:1px solid black;
@@ -173,12 +173,12 @@ ul#demo-block{ margin:0 15px 15px 15px; }
     }
 	/*bootsrap stuff */
 	.span7{width:572px; float:left;}
-	.span6{width:510px; float:left;}
-	.span5{width:448px; float:left;}
+	.span6{width:48%; float:left;}
+	.span5{width:34%; float:left;}
 	.span4{width:300px; float:left;}
 	.span3{width:220px; float:left;}
-	.span2{width:110px; float:left;}
-	.row{*zoom:1; margin-top: 28px}.row:before,.row:after{display:table;content:"";line-height:0;}
+	.span2{width:155px; float:left;}
+	.row{*zoom:1; margin-top: 28px;margin-right:97px;}.row:before,.row:after{display:table;content:"";line-height:0;}
 
 	.contact{
 		color:#E8E323;
@@ -186,8 +186,9 @@ ul#demo-block{ margin:0 15px 15px 15px; }
 		font-family: 'news cycle';
     	font-weight: 100;
     	letter-spacing: 0.4px;
+    	float:right;
     	line-height: 24px;
-    	padding: 10px 20px;
+    	padding: 10px 0px;
 	}
 	.mask-icons-container{
  		position: absolute;
