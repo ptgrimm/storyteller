@@ -66,9 +66,9 @@ $('#toggle').click(function() {
             return (text == '+' ? '-' : '+');
         });
     });
-    $('#toggle_mover').slideToggle(500, 'swing', function () {
+    $('#toggle_mover').slideToggle(450, 'swing', function () {
     });
-    
+    $('.mask-icons-container').show('slow');
     return false;
 });
 
@@ -78,8 +78,9 @@ $('#learn').click(function() {
             return (text == '+' ? '-' : '+');
         });
     });
-    $('#toggle_mover').slideToggle(500,'swing', function () {
+    $('#toggle_mover').slideToggle(450,'swing', function () {
     });
+    $('.mask-icons-container').show('slow');
     return false;
 });
 
