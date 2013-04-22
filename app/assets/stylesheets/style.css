@@ -113,6 +113,7 @@ ul#demo-block{ margin:0 15px 15px 15px; }
 }
 .headline-image {
     width: 1300px;
+    margin-left: 6px
 }
 	.line{
 		border-bottom:1px solid black;
@@ -339,7 +340,7 @@ ul#demo-block{ margin:0 15px 15px 15px; }
 	}
 	
 	#logo {
-	    left: 3px;
+	    left: 2px;
 	    position: absolute;
 	    top: -2px;
 		width:308px;
