@@ -51,7 +51,7 @@ jQuery(function($){
      // Components  
      slide_links  :  'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')
      slides   :  [  // Slideshow Images
-     {image : 'assets/redefine.gif ', title : '', thumb : '', url : ''},
+     {image : 'assets/aquarium.gif ', title : '', thumb : '', url : ''},
      ]
     });
 });
