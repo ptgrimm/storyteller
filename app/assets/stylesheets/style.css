@@ -173,27 +173,38 @@ ul#demo-block{ margin:0 15px 15px 15px; }
     }
 	/*bootsrap stuff */
 	.span7{width:572px; float:left;}
-	.span6{width:46%; float:left;}
-	.span5{width:37%; float:left;}
+	.span6{min-width: 525px; width: 45%; float:left;}
+	.span5{width:37%; min-width:410px; float:left;}
 	.span4{width:300px; float:left;}
 	.span3{width:220px; float:left;}
-	.span2{width:155px; float:left;}
+	.span2{width: 102px; float: left; padding-left:20px !important; margin-right: 51px;}
 	.row{*zoom:1; margin-top: 28px;margin-right:97px;}.row:before,.row:after{display:table;content:"";line-height:0;}
 
+	.span5 a {
+	color:#E8E323 !important;
+	text-decoration: none;
+}
+	.contact a{
+		color:#E8E323 !important;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: 'news cycle';
+		}
 	.contact{
-		color:#E8E323;
+		color:#E8E323 !important;
+		text-decoration: none;
 		text-transform: uppercase;
 		font-family: 'news cycle';
     	font-weight: 100;
     	letter-spacing: 0.4px;
-    	float:right;
+    	
     	line-height: 24px;
     	padding: 10px 0px;
 	}
 	.mask-icons-container{
  		position: absolute;
     	right: 69px;
-    	display:none;
+    	
     	top: 12px;
     	width: 170px;
 		z-index:999999
