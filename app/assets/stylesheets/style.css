@@ -58,7 +58,7 @@ ul#demo-block{ margin:0 15px 15px 15px; }
 	}
 	#toggle{
         border: 1px solid white;
-    	color: yellow;
+    	color: #F4DF02;
     	font-family: Georgia;
     	font-size: 25px;
     	font-weight: bold;
@@ -178,26 +178,28 @@ ul#demo-block{ margin:0 15px 15px 15px; }
 	.span4{width:300px; float:left;}
 	.span3{width:220px; float:left;}
 	.span2{width: 102px; float: left; padding-left:20px !important; margin-right: 51px;}
-	.row{*zoom:1; margin-top: 28px;margin-right:97px;}.row:before,.row:after{display:table;content:"";line-height:0;}
+	.row{*zoom:1; margin-top: 28px;margin-right:97px;min-width: 1088px;}.row:before,.row:after{display:table;content:"";line-height:0;}
 
 	.span5 a {
-	color:#E8E323 !important;
+	color:#F4DF02 !important;
 	text-decoration: none;
 }
+	.span5 a:hover {
+	text-decoration: underline;
+}
 	.contact a{
-		color:#E8E323 !important;
+		color:#F4DF02 !important;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-family: 'news cycle';
 		}
 	.contact{
-		color:#E8E323 !important;
+		color:#F4DF02 !important; /* other yellow option #E8E323 F4DF02 !important  */
 		text-decoration: none;
 		text-transform: uppercase;
 		font-family: 'news cycle';
     	font-weight: 100;
     	letter-spacing: 0.4px;
-    	
     	line-height: 24px;
     	padding: 10px 0px;
 	}
@@ -333,6 +335,7 @@ ul#demo-block{ margin:0 15px 15px 15px; }
 		position: absolute;
 		left: 0;
 		right: 0;
+		min-width: 1088px;
 		height:57px;
 		padding-right:50px;
 		padding-top: 10px;
