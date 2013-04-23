@@ -83,8 +83,9 @@ ul#demo-block{ margin:0 15px 15px 15px; }
 	p {
         font-family: 'news cycle';
     	font-weight: 100;
+    	font-size:15px;
     	letter-spacing: 0.4px;
-    	line-height: 24px;
+    	line-height: 23px;
     	padding: 10px 20px;
     	text-align: left;
 	}	
@@ -173,8 +174,8 @@ ul#demo-block{ margin:0 15px 15px 15px; }
     }
 	/*bootsrap stuff */
 	.span7{width:572px; float:left;}
-	.span6{min-width: 525px; width: 45%; float:left;}
-	.span5{width:37%; min-width:410px; float:left;}
+	.span6{min-width: 525px; width: 47%; float:left;}
+	.span5{width:40%; min-width:410px; float:left;}
 	.span4{width:300px; float:left;}
 	.span3{width:220px; float:left;}
 	.span2{width: 102px; float: left; padding-left:20px !important; margin-right: 51px;}
