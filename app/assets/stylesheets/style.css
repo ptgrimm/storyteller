@@ -362,8 +362,8 @@ ul#demo-block{ margin:0 15px 15px 15px; }
 	#logo {
 	    left: 2px;
 	    position: absolute;
-	    top: -2px;
-		width:308px;
+	    top: 0px;
+		width:302px;
 		background: transparent;
 		z-index:999;
 	}
