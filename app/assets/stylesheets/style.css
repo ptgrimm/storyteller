@@ -77,6 +77,10 @@ ul#demo-block{ margin:0 15px 15px 15px; }
 		cursor: pointer;
 		background:white;
 		color:black;}
+	.icon-twitter {
+        font-size: 20.5px !important;
+        width: 22px;
+	}
 	.spacer{
 		height:74px;
 	}
