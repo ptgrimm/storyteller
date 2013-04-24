@@ -61,24 +61,24 @@ $('#vertical_slide').hide();
 $('#toggle_mover').hide();
 
 $('#toggle').click(function() {
-    $('#vertical_slide').slideToggle(800, 'easeOutCubic', function () {
+    $('#vertical_slide').slideToggle(1300, 'easeOutQuint', function () {
         $('#toggle').text(function (index, text) {
             return (text == '+' ? '-' : '+');
         });
     });
-    $('#toggle_mover').slideToggle(800, 'easeOutCubic', function () {
+    $('#toggle_mover').slideToggle(1300, 'easeOutQuint', function () {
     });
     $('.mask-icons-container').fadeIn('100');
     return false;
 });
 
 $('#learn').click(function() {
-    $('#vertical_slide').slideToggle(800, 'easeOutCubic', function () {
+    $('#vertical_slide').slideToggle(1300, 'easeOutQuint', function () {
         $('#toggle').text(function (index, text) {
             return (text == '+' ? '-' : '+');
         });
     });
-    $('#toggle_mover').slideToggle(800, 'easeOutCubic', function () {
+    $('#toggle_mover').slideToggle(1300, 'easeOutQuint', function () {
     });
     $('.mask-icons-container').fadeIn('100');
     return false;
